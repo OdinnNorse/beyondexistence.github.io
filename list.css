@@ -1,0 +1,42 @@
+
+header {
+    background-color: #4da6ff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("assets/fonts/static/Cinzel-Regular.ttf");
+}
+
+body {
+    background-color: #1b1b1b;
+    color: white;
+    font-family: "Cinzel", "sans-serif";
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.category-card {
+    background-color: #2d2d2d;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 6px solid #4da6ff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.stat-card {
+    background-color: #2d2d2d;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 6px solid #4da6ff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
