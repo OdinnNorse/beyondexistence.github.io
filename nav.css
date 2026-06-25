@@ -1,0 +1,128 @@
+/* ── Fonts ── */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Crimson+Pro:wght@300;400&display=swap');
+
+/* ── Reset ── */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ── Body ── */
+body {
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.7;
+    min-height: 100vh;
+    background-color: #0a100d;
+    color: #cdc9be;
+
+    /* Fixed parallax background */
+    background-image: url('assets/hero.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Dark overlay on top of the background image, behind all content */
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(6, 14, 10, 0.82);
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* All direct children of body need to sit above the overlay */
+body > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* ── Navbar ── */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    height: 56px;
+    background: #0d1f15;
+    border-bottom: 1px solid #1a3d24;
+}
+
+.navbar-brand {
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: #c8dcc0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar-brand span {
+    color: #5aaa72;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    list-style: none;
+}
+
+.navbar-links a {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #7a9e84;
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+.navbar-links a:hover {
+    color: #b8d8bc;
+    background: rgba(60, 120, 80, 0.15);
+    border-color: rgba(60, 120, 80, 0.3);
+}
+
+.navbar-links a.active {
+    color: #90cc9a;
+    background: rgba(60, 120, 80, 0.2);
+    border-color: rgba(90, 170, 114, 0.4);
+}
+
+/* ── Page hero banner ── */
+.page-hero {
+    text-align: center;
+    padding: 64px 24px 52px;
+    border-bottom: 1px solid rgba(60, 120, 80, 0.2);
+}
+
+.page-hero h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #e0ece2;
+    margin-bottom: 12px;
+    text-shadow: 0 0 40px rgba(60, 180, 90, 0.2);
+}
+
+.page-hero p {
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #5a8a64;
+}

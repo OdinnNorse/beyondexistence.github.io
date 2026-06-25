@@ -1,0 +1,129 @@
+{
+    "Modding API": [
+        "KubeJS",
+        "MoreJS",
+        "Rhino",
+        "Kotlin for Forge",
+        "KotlinLangForge",
+        "Architectury",
+        "FancyMenu",
+        "Konkrete",
+        "Melody"
+    ],
+    "Performance": [
+        "Sodium",
+        "Lithium",
+        "Iris Shaders",
+        "ModernFix",
+        "ImmediatelyFast",
+        "Ferrite Core",
+        "EntityCulling",
+        "Dynamic FPS"
+    ],
+    "Magic": [
+        "Ars Nouveau",
+        "Ars Elemental",
+        "Ars Ocultas",
+        "Iron's Spells 'n Spellbooks",
+        "Iron's Lib",
+        "Occultism",
+        "Occultism KubeJS"
+    ],
+    "Technology": [
+        "Create",
+        "Create: Enchantment Industry",
+        "Create: Dragons Plus",
+        "Immersive Engineering"
+    ],
+    "Adventure & Exploration": [
+        "When Dungeons Arise",
+        "The Twilight Forest",
+        "End Remastered",
+        "Alex's Mobs",
+        "Mutant Monsters",
+        "Artifacts",
+        "Lootr",
+        "Enhanced Celestials",
+        "Enhanced Celestials Shader Support",
+        "Gravestone Mod"
+    ],
+    "Combat": [
+        "Better Combat",
+        "Simply Swords",
+        "Immersive Armors",
+        "Player Animator"
+    ],
+    "Food & Survival": [
+        "Farmer's Delight",
+        "Fruits Delight",
+        "Compat Delight",
+        "AppleSkin",
+        "Thirst Was Taken"
+    ],
+    "Utility & QoL": [
+        "Just Enough Items",
+        "Mouse Tweaks",
+        "Jade",
+        "Better Than Mending",
+        "Better Advancements",
+        "Journeymap",
+        "Waystones",
+        "Traveler's Backpack",
+        "Storage Drawers",
+        "Veinminer",
+        "Veinminer Enchantment",
+        "Fast Leaf Decay",
+        "Trade Cycling",
+        "Equipment Compare",
+        "Controlling",
+        "Searchables",
+        "Simply Tooltips",
+        "EnchantmentDescriptions",
+        "Clumps",
+        "Elytra Slot",
+        "Caelus API"
+    ],
+    "FTB Suite": [
+        "FTB Quests",
+        "FTB Teams",
+        "FTB Library",
+        "FTB Filter System",
+        "FTB XMod Compat"
+    ],
+    "World & Cosmetic": [
+        "Quark",
+        "Zeta",
+        "Supplementaries",
+        "Amendments",
+        "MrCrayfish's Furniture Mod: Refurbished",
+        "Fallingleaves",
+        "AmbientSounds",
+        "Blur+"
+    ],
+    "Documentation": [
+        "Patchouli",
+        "Modonomicon",
+        "Configured"
+    ],
+    "Dependencies & Libraries": [
+        "Bookshelf",
+        "Balm",
+        "Citadel",
+        "CorgiLib",
+        "CreativeCore",
+        "Cloth Config v15 API",
+        "Curios API",
+        "Data Anchor",
+        "Framework",
+        "Fzzy Config",
+        "GeckoLib 4",
+        "Iceberg",
+        "MidnightLib",
+        "Moonlight Lib",
+        "Puzzles Lib",
+        "SmartBrainLib",
+        "AttributeFix",
+        "PrickleMC",
+        "Yeetus Experimentus"
+    ]
+}
